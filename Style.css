@@ -167,44 +167,6 @@ Html {
   Width: 20%;
 }
 
-/*===========================Services===========================*/
-.Services {
-  Display: Flex;
-  Flex-Flow: Row;
-  Align-Items: Center;
-  Justify-Content: Center;
-}
-
-.Service-Item {
-  Flex: 1;
-  Padding: 50px 10px;
-  Border: Lightcyan Solid 1px;
-  Text-Align: Center;
-  Margin: 180px 50px;
-  Transition: All 1s;
-  Display: Flex;
-  Flex-Flow: Column;
-  Align-Items: Center;
-  Justify-Content: Center;
-}
-
-.Service-Item:hover {
-  Box-Shadow: 3px 3px 20px Lightsteelblue;
-}
-
-.Service-Item H2 {
-  Font-Family: Barlow Condensed;
-  Font-Size: 18px;
-  Width: 120px;
-  Color: #001f38;
-  Flex: 1;
-}
-
-.Service-Item Img {
-  Width: 60px;
-  Height: 60px;
-  Flex: 1;
-}
 
 /*=============================Places===============================*/
 .Places-Text {
@@ -296,15 +258,6 @@ Html {
   Overflow: Hidden;
 }
 
-/* .Img-Card Img {
-  -Webkit-Transition: 0.8s Ease;
-  Transition: 0.8s Ease;
-}
-
-.Card:hover .Zoom-Img Img {
-  -Webkit-Transform: Scale(1.1);
-  Transform: Scale(1.1);
-} */
 
 /*=========================About Us=========================*/
 .About {
@@ -439,6 +392,7 @@ Html {
   Font-Family: Roboto;
   Cursor: Pointer;
   Padding: 15px 0;
+  font-style: italic;
 }
 
 .Links Li:hover {
